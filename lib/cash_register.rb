@@ -34,9 +34,13 @@ def items
     @items
 end
 
-def void_last_transaction
+def void_last_transaction #(price, quantity=1)
+  #@last_trans = price * quanity
+  #@total -= @last_trans
   @total = 0
 end
+
+
 
 
 end
