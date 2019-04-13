@@ -34,7 +34,7 @@ def items
     @items
 end
 
-def void_last_transaction
+def void_last_transaction(price, quantity=1)
   @total = 0
 end
 
