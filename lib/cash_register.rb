@@ -36,7 +36,7 @@ end
 
 def void_last_transaction(price, quantity=1)
   @last_trans = price * quanity
-  @total -= last_trans
+  @total -= @last_trans
 end
 
 
