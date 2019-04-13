@@ -35,7 +35,7 @@ def items
 end
 
 def void_last_transaction(price, quantity=1)
-  @total = 0
+  @last_trans = price * quanity
 end
 
 
