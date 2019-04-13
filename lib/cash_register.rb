@@ -35,7 +35,7 @@ def items
 end
 
 def void_last_transaction
-  @last_trans = 0
+  @total = 0
 end
 
 
